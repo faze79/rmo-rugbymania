@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{765AB18D-FE16-48B6-A5F0-23BA2145F447}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RMO</RootNamespace>
+    <AssemblyName>RMO</AssemblyName>
+    <ApplicationIcon>RMO.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.5.452, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.SQLite, Version=1.0.79.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>dll\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class\Player.cs" />
+    <Compile Include="Control\Player.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\Player.Designer.cs">
+      <DependentUpon>Player.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Control\Skillnum.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Control\Skillnum.Designer.cs">
+      <DependentUpon>Skillnum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyHTTP.cs" />
+    <Compile Include="My\MSType.cs" />
+    <Compile Include="My\MyBox.cs" />
+    <Compile Include="My\MyButton.cs" />
+    <Compile Include="My\MyColorPicker.cs" />
+    <Compile Include="My\MyConvert.cs" />
+    <Compile Include="My\MyDir.cs" />
+    <Compile Include="My\MyDraw.cs" />
+    <Compile Include="My\MyFile.cs" />
+    <Compile Include="My\MyLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My\MyListview.cs" />
+    <Compile Include="My\MyMD5.cs" />
+    <Compile Include="My\MyShell.cs" />
+    <Compile Include="My\MySQLLite.cs" />
+    <Compile Include="My\MyTranslate.cs" />
+    <Compile Include="My\MyXML.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="About.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Control\Player.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Player.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab\TabPartite.resx">
+      <DependentUpon>TabPartite.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab\TabClassifica.resx">
+      <DependentUpon>TabClassifica.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab\TabEvents.resx">
+      <DependentUpon>TabEvents.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab\TabFormazione.resx">
+      <DependentUpon>TabFormazione.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab\TabWeb.resx">
+      <DependentUpon>TabWeb.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab\TabTeam.resx">
+      <DependentUpon>TabTeam.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab\TabDebug.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TabDebug.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Class\RMDB.cs" />
+    <Compile Include="RMHTML.cs" />
+    <Compile Include="Tab\TabNazionale.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab\TabNazionale.Designer.cs">
+      <DependentUpon>TabNazionale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tab\TabMarket.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab\TabMarket.Designer.cs">
+      <DependentUpon>TabMarket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tab\TabPlayer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab\TabPlayer.Designer.cs">
+      <DependentUpon>TabPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tab\TabPartite.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab\TabPartite.Designer.cs">
+      <DependentUpon>TabPartite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tab\TabClassifica.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab\TabClassifica.Designer.cs">
+      <DependentUpon>TabClassifica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tab\TabEvents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab\TabEvents.Designer.cs">
+      <DependentUpon>TabEvents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tab\TabFormazione.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab\TabFormazione.Designer.cs">
+      <DependentUpon>TabFormazione.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tab\TabWeb.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab\TabWeb.Designer.cs">
+      <DependentUpon>TabWeb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tab\TabTeam.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab\TabTeam.Designer.cs">
+      <DependentUpon>TabTeam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tab\TabDebug.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Tab\TabDebug.Designer.cs">
+      <DependentUpon>TabDebug.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bandiere\flag101.gif" />
+    <EmbeddedResource Include="Bandiere\flag102.gif" />
+    <EmbeddedResource Include="Bandiere\flag27.gif" />
+    <EmbeddedResource Include="Bandiere\flag31.gif" />
+    <EmbeddedResource Include="Bandiere\flag32.gif" />
+    <EmbeddedResource Include="Bandiere\flag33.gif" />
+    <EmbeddedResource Include="Bandiere\flag34.gif" />
+    <EmbeddedResource Include="Bandiere\flag351.gif" />
+    <EmbeddedResource Include="Bandiere\flag353.gif" />
+    <EmbeddedResource Include="Bandiere\flag358.gif" />
+    <EmbeddedResource Include="Bandiere\flag36.gif" />
+    <EmbeddedResource Include="Bandiere\flag373.gif" />
+    <EmbeddedResource Include="Bandiere\flag376.gif" />
+    <EmbeddedResource Include="Bandiere\flag385.gif" />
+    <EmbeddedResource Include="Bandiere\flag386.gif" />
+    <EmbeddedResource Include="Bandiere\flag387.gif" />
+    <EmbeddedResource Include="Bandiere\flag390.gif" />
+    <EmbeddedResource Include="Bandiere\flag40.gif" />
+    <EmbeddedResource Include="Bandiere\flag41.gif" />
+    <EmbeddedResource Include="Bandiere\flag420.gif" />
+    <EmbeddedResource Include="Bandiere\flag43.gif" />
+    <EmbeddedResource Include="Bandiere\flag44.gif" />
+    <EmbeddedResource Include="Bandiere\flag440.gif" />
+    <EmbeddedResource Include="Bandiere\flag441.gif" />
+    <EmbeddedResource Include="Bandiere\flag45.gif" />
+    <EmbeddedResource Include="Bandiere\flag46.gif" />
+    <EmbeddedResource Include="Bandiere\flag47.gif" />
+    <EmbeddedResource Include="Bandiere\flag48.gif" />
+    <EmbeddedResource Include="Bandiere\flag49.gif" />
+    <EmbeddedResource Include="Bandiere\flag51.gif" />
+    <EmbeddedResource Include="Bandiere\flag54.gif" />
+    <EmbeddedResource Include="Bandiere\flag55.gif" />
+    <EmbeddedResource Include="Bandiere\flag56.gif" />
+    <EmbeddedResource Include="Bandiere\flag595.gif" />
+    <EmbeddedResource Include="Bandiere\flag598.gif" />
+    <EmbeddedResource Include="Bandiere\flag61.gif" />
+    <EmbeddedResource Include="Bandiere\flag64.gif" />
+    <EmbeddedResource Include="Bandiere\flag81.gif" />
+    <EmbeddedResource Include="Control\Skillnum.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Skillnum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab\TabNazionale.resx">
+      <DependentUpon>TabNazionale.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab\TabMarket.resx">
+      <DependentUpon>TabMarket.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tab\TabPlayer.resx">
+      <DependentUpon>TabPlayer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bandiere\flag58.gif" />
+    <Content Include="RMO.ico" />
+    <EmbeddedResource Include="SkillNum\0.png" />
+    <EmbeddedResource Include="SkillNum\1.png" />
+    <EmbeddedResource Include="SkillNum\2.png" />
+    <EmbeddedResource Include="SkillNum\3.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

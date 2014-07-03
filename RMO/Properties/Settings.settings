@@ -1,0 +1,78 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RMO.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="RM_User" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="RM_Password" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MainLocation" Type="System.Drawing.Point" Scope="User">
+      <Value Profile="(Default)">0, 0</Value>
+    </Setting>
+    <Setting Name="MainSize" Type="System.Drawing.Size" Scope="User">
+      <Value Profile="(Default)">600, 500</Value>
+    </Setting>
+    <Setting Name="EnableLog" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="CheckUpdates" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="RM_Codice" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="RM_Id" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="MainMaximized" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="OrdineFormazione" Type="System.String" Scope="User">
+      <Value Profile="(Default)">1,2,3,4,5,8,6,7,10,9,12,15,11,13,14</Value>
+    </Setting>
+    <Setting Name="Language" Type="System.String" Scope="User">
+      <Value Profile="(Default)">app</Value>
+    </Setting>
+    <Setting Name="PlayerOrderSkill" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="PlayerOrderAsc" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="RM_VT" Type="System.String" Scope="User">
+      <Value Profile="(Default)">RM</Value>
+    </Setting>
+    <Setting Name="GrayLines" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="LinesColor1" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">White</Value>
+    </Setting>
+    <Setting Name="LinesColor2" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">Gainsboro</Value>
+    </Setting>
+    <Setting Name="Skill_0" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">LightGray</Value>
+    </Setting>
+    <Setting Name="Color_U21" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">50, 0, 200, 0</Value>
+    </Setting>
+    <Setting Name="Color_U25" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">50, 0, 0, 255</Value>
+    </Setting>
+    <Setting Name="Color_Allenamento" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">50, 255, 165, 0</Value>
+    </Setting>
+    <Setting Name="Color_ScattoPiu" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">50, 255, 0, 0</Value>
+    </Setting>
+    <Setting Name="Color_ScattoMeno" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">50, 0, 0, 255</Value>
+    </Setting>
+    <Setting Name="RM_Stagione" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">22</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

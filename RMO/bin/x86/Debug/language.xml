@@ -1,0 +1,1127 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<language>
+    <item app="La mia squadra">
+        <italian>La mia squadra</italian>
+        <english>My Team</english>
+        <french>Mon Effectif</french>
+    </item>
+    <item app="Calcola la formazione">
+        <italian>Calcola la formazione</italian>
+        <english>Auto Line Up</english>
+        <french>Calcul de l'équipe</french>
+    </item>
+    <item app="La Classifica">
+        <italian>La Classifica</italian>
+        <english>League Ranking</english>
+        <french>Classement championnat</french>
+    </item>
+    <item app="Le Partite">
+        <italian>Le Partite</italian>
+        <english>Matches</english>
+        <french>Matchs</french>
+    </item>
+    <item app="Eventi">
+        <italian>Eventi</italian>
+        <english>Events</english>
+        <french>Événements</french>
+    </item>
+    <item app="Navigazione Web">
+        <italian>Navigazione Web</italian>
+        <english>Surf The Web</english>
+        <french>Navigation Web</french>
+    </item>
+    <item app="Scarica aggiornamenti">
+        <italian>Scarica i dati della squadra</italian>
+        <english>Download team data</english>
+        <french>Télécharger les données de l'équipe</french>
+    </item>
+    <item app="Scarica eventi">
+        <italian>Scarica gli eventi</italian>
+        <english>Download Events</english>
+        <french>Télécharger les événements</french>
+    </item>
+    <item app="Login">
+        <italian>Login</italian>
+        <english>Login</english>
+        <french>Login</french>
+    </item>
+    <item app="Informazioni di autenticazione">
+        <italian>Informazioni di autenticazione</italian>
+        <english>Login informations</english>
+        <french>Informations d'authentification</french>
+    </item>
+    <item app="ID:">
+        <italian>ID:</italian>
+        <english>ID:</english>
+        <french>ID</french>
+    </item>
+    <item app="Codice di accesso:">
+        <italian>Codice di accesso:</italian>
+        <english>Access key:</english>
+        <french>Code d'accès</french>
+    </item>
+    <item app="Nome utente o password errati.">
+        <italian>Nome utente o password errati.</italian>
+        <english>Wrong user name or password.</english>
+        <french>Mauvais nom d'utilisateur ou mot de passe</french>
+    </item>
+    <item app="Entra">
+        <italian>Entra</italian>
+        <english>Enter</english>
+        <french>Entrer</french>
+    </item>
+    <item app="Password:">
+        <italian>Password:</italian>
+        <english>Password:</english>
+        <french>Mot de passe</french>
+    </item>
+    <item app="Nome utente:">
+        <italian>Nome utente:</italian>
+        <english>User name:</english>
+        <french>Non d'utilisateur</french>
+    </item>
+    <item app="Aggiornamento in corso...">
+        <italian>Aggiornamento in corso...</italian>
+        <english>Updating...</english>
+        <french>Mise à jour en cours...</french>
+    </item>
+    <item app="File">
+        <italian>File</italian>
+        <english>File</english>
+        <french>Fichier</french>
+    </item>
+    <item app="Esci">
+        <italian>Esci</italian>
+        <english>Exit</english>
+        <french>Sortie</french>
+    </item>
+    <item app="Azioni">
+        <italian>Azioni</italian>
+        <english>Actions</english>
+        <french>Actions</french>
+    </item>
+    <item app="Scarica gli aggiornamenti">
+        <italian>Scarica i dati della squadra</italian>
+        <english>Download team data</english>
+        <french>Télécharger les données de l'équipe</french>
+    </item>
+    <item app="Scarica avvenimenti">
+        <italian>Scarica gli eventi</italian>
+        <english>Download Events</english>
+        <french>Télécharger les événements</french>
+    </item>
+    <item app="Reset degli avvenimenti">
+        <italian>Reset degli eventi</italian>
+        <english>Reset all events</english>
+        <french>Effacer tout les événements</french>
+    </item>
+    <item app="Ricostruzione del database">
+        <italian>Ricostruzione del database</italian>
+        <english>Rebuild database</english>
+        <french>Reconstruction de la base de données</french>
+    </item>
+    <item app="Esporta backup dei dati della squadra">
+        <italian>Esporta backup dei dati della squadra</italian>
+        <english>Export backup of team data</english>
+        <french>Exporter une sauvegarde des données de l'équipe</french>
+    </item>
+    <item app="Importa backup dei dati della squadra">
+        <italian>Importa backup dei dati della squadra</italian>
+        <english>Import backup of team data</english>
+        <french>importer une sauvegarde des données de l'équipe</french>
+    </item>
+    <item app="Visualizza">
+        <italian>Visualizza</italian>
+        <english>View</english>
+        <french>Fenêtre</french>
+    </item>
+    <item app="Impostazioni">
+        <italian>Impostazioni</italian>
+        <english>Settings</english>
+        <french>Paramètres</french>
+    </item>
+    <item app="Lingua">
+        <italian>Lingua</italian>
+        <english>Language</english>
+        <french>Langue</french>
+    </item>
+    <item app="Italiano">
+        <italian>Italiano</italian>
+        <english>Italian</english>
+        <french>Italien</french>
+    </item>
+    <item app="Inglese">
+        <italian>Inglese</italian>
+        <english>English</english>
+        <french>Anglais</french>
+    </item>
+    <item app="Francese">
+        <italian>Francese</italian>
+        <english>French</english>
+        <french>Francais</french>
+    </item>
+    <item app="Visualizza i dati di autenticazione">
+        <italian>Visualizza i dati di autenticazione</italian>
+        <english>View login data</english>
+        <french>Voir les informations du login</french>
+    </item>
+    <item app="Mostra la directory di configurazione">
+        <italian>Mostra la directory di configurazione</italian>
+        <english>Open configuration directory</english>
+        <french>voir le répertoire de configuration</french>
+    </item>
+    <item app="Verifica automaticamente la presenza di aggiornamenti">
+        <italian>Verifica automaticamente la presenza di aggiornamenti</italian>
+        <english>Autodetect application updates</english>
+        <french>Vérification automatique de mise à jour</french>
+    </item>
+    <item app="?">
+        <italian>?</italian>
+        <english>?</english>
+        <french>?</french>
+    </item>
+    <item app="Informazioni su RMO">
+        <italian>Informazioni su RMO</italian>
+        <english>Informations about RMO</english>
+        <french>Information sur RMO</french>
+    </item>
+    <item app="Ricerca aggiornamenti">
+        <italian>Ricerca aggiornamenti per RMO</italian>
+        <english>Search application updates</english>
+        <french>Rechercher une mise à jour</french>
+    </item>
+    <item app="Vai al sito web">
+        <italian>Vai al sito web</italian>
+        <english>Go to the web site</english>
+        <french>Accéder au site Web</french>
+    </item>
+    <item app="Formazione">
+        <italian>Formazione</italian>
+        <english>Line Up</english>
+        <french>Formation</french>
+    </item>
+    <item app="Gestione Eventi">
+        <italian>Gestione Eventi</italian>
+        <english>Event Manager</english>
+        <french>Gestion d'événements</french>
+    </item>
+    <item app="VT:">
+        <italian>VT:</italian>
+        <english>VT:</english>
+        <french>VT:</french>
+    </item>
+    <item app="Caricamento in corso...">
+        <italian>Caricamento in corso...</italian>
+        <english>Loading...</english>
+        <french>Chargement en cours...</french>
+    </item>
+    <item app="Es">
+        <italian>Es</italian>
+        <english>Fb</english>
+        <french>Ar</french>
+    </item>
+    <item app="Ce">
+        <italian>Ce</italian>
+        <english>Ce</english>
+        <french>Ce</french>
+    </item>
+    <item app="Al">
+        <italian>Al</italian>
+        <english>Wi</english>
+        <french>Ai</french>
+    </item>
+    <item app="Ma">
+        <italian>Ma</italian>
+        <english>Fh</english>
+        <french>Do</french>
+    </item>
+    <item app="Mm">
+        <italian>Mm</italian>
+        <english>Sh</english>
+        <french>Dm</french>
+    </item>
+    <item app="n8">
+        <italian>n8</italian>
+        <english>n8</english>
+        <french>n8</french>
+    </item>
+    <item app="3a">
+        <italian>3a</italian>
+        <english>Fl</english>
+        <french>3L</french>
+    </item>
+    <item app="2L">
+        <italian>2L</italian>
+        <english>Lo</english>
+        <french>2L</french>
+    </item>
+    <item app="Ta">
+        <italian>Ta</italian>
+        <english>Ho</english>
+        <french>Ta</french>
+    </item>
+    <item app="Pi">
+        <italian>Pi</italian>
+        <english>Pr</english>
+        <french>Pi</french>
+    </item>
+    <item app="Sal">
+        <italian>Sal</italian>
+        <english>Sal</english>
+        <french>Sal</french>
+    </item>
+    <item app="Gg">
+        <italian>Gg</italian>
+        <english>Dd</english>
+        <french>Jc</french>
+    </item>
+    <item app="Ex">
+        <italian>Ex</italian>
+        <english>Ex</english>
+        <french>Ex</french>
+    </item>
+    <item app="Ca">
+        <italian>Ca</italian>
+        <english>Ki</english>
+        <french>Cp</french>
+    </item>
+    <item app="Ri">
+        <italian>Ri</italian>
+        <english>Ha</english>
+        <french>Ré</french>
+    </item>
+    <item app="Pa">
+        <italian>Pa</italian>
+        <english>Pa</english>
+        <french>Pa</french>
+    </item>
+    <item app="Ve">
+        <italian>Ve</italian>
+        <english>Sp</english>
+        <french>Ra</french>
+    </item>
+    <item app="Pl">
+        <italian>Pl</italian>
+        <english>Ta</english>
+        <french>Pl</french>
+    </item>
+    <item app="Fo">
+        <italian>Fo</italian>
+        <english>St</english>
+        <french>Fo</french>
+    </item>
+    <item app="Re">
+        <italian>Re</italian>
+        <english>St</english>
+        <french>En</french>
+    </item>
+    <item app="Peso">
+        <italian>Peso</italian>
+        <english>Weight</english>
+        <french>Poids</french>
+    </item>
+    <item app="Alt">
+        <italian>Alt</italian>
+        <english>Height</english>
+        <french>Taille</french>
+    </item>
+    <item app="E">
+        <italian>E</italian>
+        <english>E</english>
+        <french>E</french>
+    </item>
+    <item app="Cat">
+        <italian>Cat</italian>
+        <english>Cat</english>
+        <french>Cat</french>
+    </item>
+    <item app="Nazione">
+        <italian>Nazione</italian>
+        <english>Nation</english>
+        <french>Pays</french>
+    </item>
+    <item app="Cognome">
+        <italian>Cognome</italian>
+        <english>Surname</english>
+        <french>Nom</french>
+    </item>
+    <item app="Nome">
+        <italian>Nome</italian>
+        <english>Name</english>
+        <french>Prénom</french>
+    </item>
+    <item app="ID">
+        <italian>ID</italian>
+        <english>ID</english>
+        <french>ID</french>
+    </item>
+    <item app="al:">
+        <italian>al:</italian>
+        <english>to:</english>
+        <french>au:</french>
+    </item>
+    <item app="Confronta dal:">
+        <italian>Confronta dal:</italian>
+        <english>Start from:</english>
+        <french>depuis:</french>
+    </item>
+    <item app="Totale stipendi: {0} €">
+        <italian>Totale stipendi: {0} €</italian>
+        <english>Total Salary: {0} €</english>
+        <french>Salaire total: {0} €</french>
+    </item>
+    <item app="Età media {0} anni">
+        <italian>Età media {0} anni</italian>
+        <english>Medium age {0} years</english>
+        <french>Age moyen {0} ans</french>
+    </item>
+    <item app="{0} Giocatori">
+        <italian>{0} Giocatori</italian>
+        <english>{0} Players</english>
+        <french>{0} Joueurs</french>
+    </item>
+    <item app="Predefinito">
+        <italian>Predefinito</italian>
+        <english>Default</english>
+        <french>Défaut</french>
+    </item>
+    <item app="ID o Codice di accesso errato.">
+        <italian>ID o Codice di accesso errato.</italian>
+        <english>Wrong ID or key code.</english>
+        <french>Mauvais ID</french>
+    </item>
+    <item app="Formazione">
+        <italian>Formazione</italian>
+        <english>Line Up</english>
+        <french>Formation</french>
+    </item>
+    <item app="Ordine:">
+        <italian>Ordine:</italian>
+        <english>Order:</english>
+        <french>Ordre:</french>
+    </item>
+    <item app="Colori">
+        <italian>Colori</italian>
+        <english>Colors</english>
+        <french>Couleurs</french>
+    </item>
+    <item app="Il Mercato">
+        <italian>Il Mercato</italian>
+        <english>The Market</english>
+        <french>Recrutement</french>
+    </item>
+    <item app="Vai all'intervista">
+        <italian>Vai all'intervista</italian>
+        <english>Go to the interview</english>
+        <french>Aller à l'interview</french>
+    </item>
+    <item app="Linee pari">
+        <italian>Linee pari</italian>
+        <english>Odd lines</english>
+        <french>Lignes paires</french>
+    </item>
+    <item app="Linee dispari">
+        <italian>Linee dispari</italian>
+        <english>Even lines</english>
+        <french>Lignes impaires</french>
+    </item>
+    <item app="Skill non valutate">
+        <italian>Skill non valutate</italian>
+        <english>Skills not evaluated</english>
+        <french>Qualités non évaluées</french>
+    </item>
+    <item app="Allenamento">
+        <italian>Allenamento</italian>
+        <english>Training</english>
+        <french>Entrainement</french>
+    </item>
+    <item app="Naz">
+        <italian>Naz</italian>
+        <english>Nat</english>
+        <french>Nat</french>
+    </item>
+    <item app="resistenza">
+        <italian>resistenza</italian>
+        <english>stamina</english>
+        <french>Endurance</french>
+    </item>
+    <item app="forza">
+        <italian>forza</italian>
+        <english>strength</english>
+        <french>Force</french>
+    </item>
+    <item app="placcaggi">
+        <italian>placcaggi</italian>
+        <english>tackling</english>
+        <french>Plaquage</french>
+    </item>
+    <item app="velocità">
+        <italian>velocità</italian>
+        <english>speed</english>
+        <french>Rapidité</french>
+    </item>
+    <item app="passaggi">
+        <italian>passaggi</italian>
+        <english>passing</english>
+        <french>Passe</french>
+    </item>
+    <item app="ricezione">
+        <italian>ricezione</italian>
+        <english>handling</english>
+        <french>Réception</french>
+    </item>
+    <item app="calci">
+        <italian>calci</italian>
+        <english>kicking</english>
+        <french>Coup de pied</french>
+    </item>
+    <item app="esperienza">
+        <italian>esperienza</italian>
+        <english>experience</english>
+        <french>Expérience</french>
+    </item>
+    <item app="Estremo">
+        <italian>Estremo</italian>
+        <english>Full Back</english>
+        <french>Arrière</french>
+    </item>
+    <item app="SecondaLinea">
+        <italian>Seconda linea</italian>
+        <english>Lock</english>
+        <french>2eme ligne</french>
+    </item>
+    <item app="Ala">
+        <italian>Ala</italian>
+        <english>Wing</english>
+        <french>Ailier</french>
+    </item>
+    <item app="Pilone">
+        <italian>Pilone</italian>
+        <english>Prop</english>
+        <french>Pilier</french>
+    </item>
+    <item app="Tallonatore">
+        <italian>Tallonatore</italian>
+        <english>Hooker</english>
+        <french>Talonneur</french>
+    </item>
+    <item app="TerzaLineaAla">
+        <italian>Terza linea ala</italian>
+        <english>Flanker</english>
+        <french>3eme ligne aile</french>
+    </item>
+    <item app="TerzaLineaCentro">
+        <italian>Terza linea centro</italian>
+        <english>Number 8</english>
+        <french>3eme ligne centre</french>
+    </item>
+    <item app="MedianoDiMischia">
+        <italian>Mediano di mischia</italian>
+        <english>Scrum Half</english>
+        <french>Demi de mêlée</french>
+    </item>
+    <item app="MedianoDiApertura">
+        <italian>Mediano di apertura</italian>
+        <english>Fly Half</english>
+        <french>Demi d'ouverture</french>
+    </item>
+    <item app="Centro">
+        <italian>Centro</italian>
+        <english>Centre</english>
+        <french>Centre</french>
+    </item>
+    <item app="avanti">
+        <italian>avanti</italian>
+        <english>forwards</english>
+        <french>Avants</french>
+    </item>
+    <item app="jolly">
+        <italian>jolly</italian>
+        <english>utility</english>
+        <french>Polyvalents</french>
+    </item>
+    <item app="3/4">
+        <italian>3/4</italian>
+        <english>backs</english>
+        <french>Arrières</french>
+    </item>
+    <item app="Scatto positivo">
+        <italian>Scatto positivo</italian>
+        <english>Skill upgrade</english>
+        <french>Progression</french>
+    </item>
+    <item app="Scatto negativo">
+        <italian>Scatto negativo</italian>
+        <english>Skill downgrade</english>
+        <french>Régression</french>
+    </item>
+    <item app="Visualizza righe alternate">
+        <italian>Visualizza righe alternate</italian>
+        <english>Show alternated lines</english>
+        <french>Visualiser les lignes alternées</french>
+    </item>
+    <item app="TEST">
+        <italian>TEST</italian>
+        <english>TEST</english>
+        <french>TEST</french>
+    </item>
+    <item app="Under 21">
+        <italian>Under 21</italian>
+        <english>Under 21</english>
+        <french>Moins de 21</french>
+    </item>
+    <item app="Under 25">
+        <italian>Under 25</italian>
+        <english>Under 25</english>
+        <french>Moins de 25</french>
+    </item>
+    <item app="Clicca qui per andare alla pagina della nazionale.">
+        <italian>Clicca qui per andare alla pagina della nazionale.</italian>
+        <english>Click here to reach the Nationa Team page.</english>
+        <french>Cliquez ici pour atteindre la page de l'équipe nationale</french>
+    </item>
+    <item app="Ha {0} allenamenti in {1}">
+        <italian>Ha {0} allenamenti in {1}</italian>
+        <english>Trained {0} times in {1}</english>
+        <french>Entrainé {0} fois en {1}</french>
+    </item>
+    <item app="Peso MAX: {0} kg">
+        <italian>Peso MAX: {0} kg</italian>
+        <english>MAX weight: {0} kg</english>
+        <french>Poids MAX: {0} kg</french>
+    </item>
+    <item app="Nessuna valutazione">
+        <italian>Nessuna valutazione</italian>
+        <english>No evaluation</english>
+        <french>Aucune évaluation</french>
+    </item>
+    <item app="Cliccando qui visiterai la sua pagina">
+        <italian>Cliccando qui visiterai la sua pagina</italian>
+        <english>Click here, you will visit his page</english>
+        <french>Cliquez ici, vous allez voir sa page</french>
+    </item>
+    <item app="Ha {0} anni è quindi Under 26">
+        <italian>Ha {0} anni è quindi Under 26</italian>
+        <english>He is {0} years old so he is Under 26</english>
+        <french>Il a {0} ans donc c'est un -26 ans</french>
+    </item>
+    <item app="Questo giocatore è vendibile!">
+        <italian>Questo giocatore è vendibile!</italian>
+        <english>You can sell this player!</english>
+        <french>Vous pouvez vendre ce joueur!</french>
+    </item>
+    <item app="Peso MAX: 123,75 kg">
+        <italian>Peso MAX: 123,75 kg</italian>
+        <english>MAX weight: 123,75 kg</english>
+        <french>Poids MAX: 123,75kg</french>
+    </item>
+    <item app="{0} è diminuito di {1}{2}">
+        <italian>{0} è diminuito di {1}{2}</italian>
+        <english>{0} decreased {1}{2}</english>
+        <french>{0} diminué {1}{2}</french>
+    </item>
+    <item app="Ha {0} anni.">
+        <italian>Ha {0} anni.</italian>
+        <english>Is {0} years old.</english>
+        <french>A {0} ans</french>
+    </item>
+    <item app="Valore stimato: {0} €">
+        <italian>Valore stimato: {0} €</italian>
+        <english>Estimated value: {0} €</english>
+        <french>Valeur estimée: {0} €</french>
+    </item>
+    <item app="Stipendio: {0} €">
+        <italian>Stipendio: {0} €</italian>
+        <english>Salary: {0} €</english>
+        <french>Salaire: {0} €</french>
+    </item>
+    <item app="Età: {0}">
+        <italian>Età: {0}</italian>
+        <english>Age: {0}</english>
+        <french>Age: {0}</french>
+    </item>
+    <item app="Stipendio stimanto:">
+        <italian>Stipendio stimanto:</italian>
+        <english>Estimate salary:</english>
+        <french>Estimation salaire:</french>
+    </item>
+    <item app="Vai al sito di Rugbymania.net">
+        <italian>Vai al sito di Rugbymania.net</italian>
+        <english>Surf to Rugbymania.net</english>
+        <french>Surfez sur Rugbymania.net</french>
+    </item>
+    <item app="{0} è aumentato di {1}{2}">
+        <italian>{0} è aumentato di {1}{2}</italian>
+        <english>{0} has {1}{2} more</english>
+        <french>{0} a augmenté de {1}{2}</french>
+    </item>
+    <item app="Ha raggiunto il suo peso limite!">
+        <italian>Ha raggiunto il suo peso limite!</italian>
+        <english>He gained his max weight!</english>
+        <french>Il a atteint son poids maximal</french>
+    </item>
+    <item app="Pesa {0} kg.">
+        <italian>Pesa {0} kg.</italian>
+        <english>weighs {0} kg.</english>
+        <french>Pése {0} kg.</french>
+    </item>
+    <item app="Guadagna {0} € più del previsto!">
+        <italian>Guadagna {0} € più del previsto!</italian>
+        <english>The salay is {0} € more then expected!</english>
+        <french>Le salaire est {0}€ de plus que prévu</french>
+    </item>
+    <item app="Stipendio base: {0} €">
+        <italian>Stipendio base: {0} €</italian>
+        <english>Base salary: {0} €</english>
+        <french>Salaire de base: {0} €</french>
+    </item>
+    <item app="Stipendio massimo: {0} €">
+        <italian>Stipendio massimo: {0} €</italian>
+        <english>Max salary: {0} €</english>
+        <french>Salaire maximum: {0} €</french>
+    </item>
+    <item app="Stipendio previsto: {0} €">
+        <italian>Stipendio previsto: {0} €</italian>
+        <english>Supposed salary: {0} €</english>
+        <french>Salaire prévu: {0}€</french>
+    </item>
+    <item app="Download di ">
+        <italian>Download di </italian>
+        <english>Download of </english>
+        <french>Chargement de</french>
+    </item>
+    <item app="Elaborazione di ">
+        <italian>Elaborazione di </italian>
+        <english>Elaboration of </english>
+        <french>Construction de</french>
+    </item>
+    <item app="Download di tutti gli eventi terminato! {0} eventi inseriti">
+        <italian>Download di tutti gli eventi terminato! {0} eventi inseriti</italian>
+        <english>Download of all elements terminated! {0} events inserted</english>
+        <french>Chargement de tous les élements terminé! {0} événements inclus</french>
+    </item>
+    <item app="Il tuo mercato è bloccato fino al">
+        <italian>Il tuo mercato è bloccato fino al</italian>
+        <english>Your market is blocked until</english>
+        <french>Votre recrutement est bloqué jusqu´au</french>
+    </item>
+    <item app="Ha {0} in {1}.|E' aumentato di {2}|con gli allenamenti">
+        <italian>Ha {0} in {1}.|E' aumentato di {2}|con gli allenamenti</italian>
+        <english>Has {0} on {1}.|He grow up of {2}|with training</english>
+        <french>A {0} en {1}.|Il a progressé de {2}|grâce à l'entrainement</french>
+    </item>
+    <item app="A:">
+        <italian>A:</italian>
+        <english>To:</english>
+        <french>A:</french>
+    </item>
+    <item app="Da:">
+        <italian>Da:</italian>
+        <english>From:</english>
+        <french>De:</french>
+    </item>
+    <item app="Stagione:">
+        <italian>Stagione:</italian>
+        <english>Season:</english>
+        <french>Saison:</french>
+    </item>
+    <item app="Fa {0} come {1}.|E' aumentato di {2}|con gli allenamenti">
+        <italian>Fa {0} come {1}.|E' aumentato di {2}|con gli allenamenti</italian>
+        <english>Is {0} as {1}.|Upgraded of {2}|with training</english>
+        <french>A {0} comme {1}.Il augmente de {2} avec l'entrainement</french>
+    </item>
+    <item app="E' aumentato di {0} kg|con la dieta">
+        <italian>E' aumentato di {0} kg|con la dieta</italian>
+        <english>He greese up of {0} kg|with the diet</english>
+        <french>A pris {0} kg grâce au suivi alimentaire</french>
+    </item>
+    <item app="Fa {0} come {1}.|Nuova valutazione!">
+        <italian>Fa {0} come {1}.|Nuova valutazione!</italian>
+        <english>Is {0} as {1}.|New VT!</english>
+        <french>A {0} en {1}.Nouvelle évaluation !</french>
+    </item>
+    <item app="Ha {0} in {1}.">
+        <italian>Ha {0} in {1}.</italian>
+        <english>Has {0} on {1}.</english>
+        <french>A {0} en {1}</french>
+    </item>
+    <item app="Ha {0} anni è quindi Under 21">
+        <italian>Ha {0} anni è quindi Under 21</italian>
+        <english>He is {0} years old so he is Under 21</english>
+        <french>Il a {0} ans et est donc Moins de 21 ans</french>
+    </item>
+    <item app="Sarà vendibile il {0}">
+        <italian>Sarà vendibile il {0}</italian>
+        <english>You will sold him on {0}</english>
+        <french>Sera vendable le {0}</french>
+    </item>
+    <item app="Esperienza media:">
+        <italian>Esperienza media:</italian>
+        <english>Average experience:</english>
+        <french>Expérience moyenne:</french>
+    </item>
+    <item app="Ricezione dei 3/4:">
+        <italian>Ricezione dei 3/4:</italian>
+        <english>Handling of backs:</english>
+        <french>Réception des 3/4</french>
+    </item>
+    <item app="Passaggi dei 3/4:">
+        <italian>Passaggi dei 3/4:</italian>
+        <english>Passing of backs:</english>
+        <french>Passe des 3/4</french>
+    </item>
+    <item app="Placcaggi degli avanti:">
+        <italian>Placcaggi degli avanti:</italian>
+        <english>Tackling of forwards:</english>
+        <french>Plaquage des avants</french>
+    </item>
+    <item app="Valutazione totale dei 3/4:">
+        <italian>Valutazione totale dei 3/4:</italian>
+        <english>Total VT of backs:</english>
+        <french>Note totale des arrières:</french>
+    </item>
+    <item app="Valutazione totale degli avanti:">
+        <italian>Valutazione totale degli avanti:</italian>
+        <english>Total VT of forwards:</english>
+        <french>Note totale des avants:</french>
+    </item>
+    <item app="Forza degli avanti:">
+        <italian>Forza degli avanti:</italian>
+        <english>Strength of forwards:</english>
+        <french>Force des avants</french>
+    </item>
+    <item app="Peso degli avanti:">
+        <italian>Peso degli avanti:</italian>
+        <english>Weight of forwards:</english>
+        <french>Poids des avants:</french>
+    </item>
+    <item app="Valutazione totale:">
+        <italian>Valutazione totale:</italian>
+        <english>Total VT:</english>
+        <french>Note totale</french>
+    </item>
+    <item app="15 - Estremo">
+        <italian>15 - Estremo</italian>
+        <english>15 - Full Back</english>
+        <french>15 - Arrière</french>
+    </item>
+    <item app="13 - Centro">
+        <italian>13 - Centro</italian>
+        <english>13 - Centre</english>
+        <french>13 - Centre</french>
+    </item>
+    <item app="12 - Centro">
+        <italian>12 - Centro</italian>
+        <english>12 - Centre</english>
+        <french>12 - Centre</french>
+    </item>
+    <item app="14 - Ala">
+        <italian>14 - Ala</italian>
+        <english>14 - Wing</english>
+        <french>14 - Ailier</french>
+    </item>
+    <item app="11 - Ala">
+        <italian>11 - Ala</italian>
+        <english>11 - Wing</english>
+        <french>11 - Ailier</french>
+    </item>
+    <item app="10 - Mediano di apertura">
+        <italian>10 - Mediano di apertura</italian>
+        <english>10 - Fly Half</english>
+        <french>10 - Demi d'ouverture</french>
+    </item>
+    <item app="9 - Mediano di mischia">
+        <italian>9 - Mediano di mischia</italian>
+        <english>9 - Scrum Half</english>
+        <french>9 - Demi de mêlée</french>
+    </item>
+    <item app="8 - Terza linea centro">
+        <italian>8 - Terza linea centro</italian>
+        <english>8 - Number 8</english>
+        <french>8 - 3ème ligne centre</french>
+    </item>
+    <item app="7 - Terza linea ala">
+        <italian>7 - Terza linea ala</italian>
+        <english>7 - Flanker</english>
+        <french>7 - 3ème ligne aile (flanker)</french>
+    </item>
+    <item app="6 - Terza linea ala">
+        <italian>6 - Terza linea ala</italian>
+        <english>6 - Flanker</english>
+        <french>6 - 3ème ligne aile (flanker)</french>
+    </item>
+    <item app="5 - Seconda linea">
+        <italian>5 - Seconda linea</italian>
+        <english>5 - Lock</english>
+        <french>5 - Deuxième ligne</french>
+    </item>
+    <item app="4 - Seconda linea">
+        <italian>4 - Seconda linea</italian>
+        <english>4 - Lock</english>
+        <french>4 - Deuxième ligne</french>
+    </item>
+    <item app="2 - Tallonatore">
+        <italian>2 - Tallonatore</italian>
+        <english>2 - Hooker</english>
+        <french>2 - Talonneur</french>
+    </item>
+    <item app="3 - Pilone">
+        <italian>3 - Pilone</italian>
+        <english>3 - Prop</english>
+        <french>3 - Pilier</french>
+    </item>
+    <item app="1 - Pilone">
+        <italian>1 - Pilone</italian>
+        <english>1 - Prop</english>
+        <french>1 - Pilier</french>
+    </item>
+    <item app="Formazione alla data:">
+        <italian>Formazione alla data:</italian>
+        <english>Line up of date:</english>
+        <french>Formation à la date:</french>
+    </item>
+    <item app="Aggiorna">
+        <italian>Aggiorna</italian>
+        <english>Update</english>
+        <french>Mise à jour</french>
+    </item>
+    <item app="Download della classifica in corso...">
+        <italian>Download della classifica in corso...</italian>
+        <english>Downloading standings...</english>
+        <french>Téléchargement du classement en cours...</french>
+    </item>
+    <item app="Download della classifica terminato!">
+        <italian>Download della classifica terminato!</italian>
+        <english>Download of standings terminated!</english>
+        <french>Téléchargement du classement terminé!</french>
+    </item>
+    <item app="Elaborazione della classifica in corso...">
+        <italian>Elaborazione della classifica in corso...</italian>
+        <english>Making Standings evaluations...</english>
+        <french>Etablissement du classement en cours...</french>
+    </item>
+    <item app="Elaborazione della classifica terminata!">
+        <italian>Elaborazione della classifica terminata!</italian>
+        <english>Standings evaluations terminated!</english>
+        <french>Etablissement du classement terminé!</french>
+    </item>
+    <item app="Aggiornamento del database in corso...">
+        <italian>Aggiornamento del database in corso...</italian>
+        <english>Updating the database...</english>
+        <french>Mise à jour de la base de donnée...</french>
+    </item>
+    <item app="Aggiornamento del database completato!">
+        <italian>Aggiornamento del database completato!</italian>
+        <english>Database update completed!</english>
+        <french>Mise à jour de la base de donnée terminée!</french>
+    </item>
+    <item app="Caricamento degli eventi nel database in corso...">
+        <italian>Caricamento degli eventi nel database in corso...</italian>
+        <english>Loading events into the database...</english>
+        <french>Chargement des événements dans la base de donnée en cours...</french>
+    </item>
+    <item app="Il download degli eventi è una operazione molto lunga (10 minuti circa), siete sicuri di volerla eseguire ora?">
+        <italian>Il download degli eventi è una operazione molto lunga (10 minuti circa), siete sicuri di volerla eseguire ora?</italian>
+        <english>The events download may be a long operation (10 minutes), are you sure you want to do it now?</english>
+        <french>Le téléchargement des événements peut durer longtemps (10 minutes), êtes-vous sur de vouloir le faire maintenant ?</french>
+    </item>
+    <item app="E' necessario lasciare aperto il programma fino al termine dell'operazione!">
+        <italian>E' necessario lasciare aperto il programma fino al termine dell'operazione!</italian>
+        <english>It is necessary to leave the application opened until the end of this operation!</english>
+        <french>Il est nécessaire de laisser l'application ouverte jusqu'à la fin de cette opération!</french>
+    </item>
+    <item app="E' ora di aggiornare i dati della tua squadra, aggiorno?">
+        <italian>E' ora di aggiornare i dati della tua squadra, aggiorno?</italian>
+        <english>It is the time to update the team data, update?</english>
+        <french>Il est temps de mettre à jour les données sur l'équipe, mettre à jour ?</french>
+    </item>
+    <item app="Il Giocatore">
+        <italian>Il Giocatore</italian>
+        <english>The Player</english>
+        <french>Le Joueur</french>
+    </item>
+    <item app="Statistiche">
+        <italian>Statistiche</italian>
+        <english>Statistics</english>
+        <french>Statistiques</french>
+    </item>
+    <item app="Costo per scatto:">
+        <italian>Costo per scatto:</italian>
+        <english>Costs for skill:</english>
+        <french>Cout par caractéristique:</french>
+    </item>
+    <item app="Valore stimanto:">
+        <italian>Valore stimato:</italian>
+        <english>Estimated value:</english>
+        <french>Valeur estimée:</french>
+    </item>
+    <item app="Anagrafica del giocatore">
+        <italian>Anagrafica del giocatore</italian>
+        <english>Master player data</english>
+        <french>Données du joueur</french>
+    </item>
+    <item app="Peso:">
+        <italian>Peso:</italian>
+        <english>Weight:</english>
+        <french>Poids:</french>
+    </item>
+    <item app="Altezza:">
+        <italian>Altezza:</italian>
+        <english>Height:</english>
+        <french>Taille:</french>
+    </item>
+    <item app="Nazionalità:">
+        <italian>Nazionalità:</italian>
+        <english>Nationality:</english>
+        <french>Nationalité:</french>
+    </item>
+    <item app="Abilità del giocatore">
+        <italian>Abilità del giocatore</italian>
+        <english>Ability of the player</english>
+        <french>Caractéristique du joueur:</french>
+    </item>
+    <item app="Esperienza:">
+        <italian>Esperienza:</italian>
+        <english>Experience:</english>
+        <french>Expérience:</french>
+    </item>
+    <item app="Passaggi:">
+        <italian>Passaggi:</italian>
+        <english>Passing:</english>
+        <french>Passe:</french>
+    </item>
+    <item app="Calci:">
+        <italian>Calci:</italian>
+        <english>Kicking:</english>
+        <french>Coup de pied:</french>
+    </item>
+    <item app="Ricezione:">
+        <italian>Ricezione:</italian>
+        <english>Handling:</english>
+        <french>Réception:</french>
+    </item>
+    <item app="Velocità:">
+        <italian>Velocità:</italian>
+        <english>Speed:</english>
+        <french>Rapidité:</french>
+    </item>
+    <item app="Forza:">
+        <italian>Forza:</italian>
+        <english>Strength:</english>
+        <french>Force:</french>
+    </item>
+    <item app="Placcaggi:">
+        <italian>Placcaggi:</italian>
+        <english>Tackling:</english>
+        <french>Plaquage:</french>
+    </item>
+    <item app="Resistenza:">
+        <italian>Resistenza:</italian>
+        <english>Stamina:</english>
+        <french>Endurance:</french>
+    </item>
+    <item app="Nome e Cognome">
+        <italian>Nome e Cognome</italian>
+        <english>Name and Surname</english>
+        <french>Nom et prénom</french>
+    </item>
+    <item app="La Nazionale">
+        <italian>La Nazionale</italian>
+        <english>The National</english>
+        <french>L'équipe nationale</french>
+    </item>
+    <item app="English">
+        <italian>English</italian>
+        <english>English</english>
+        <french>English</french>
+    </item>
+    <item app="Français">
+        <italian>Français</italian>
+        <english>Français</english>
+        <french>Français</french>
+    </item>
+    <item app="Punti Touche: {0}">
+        <italian>Punti Touche: {0}</italian>
+        <english>Touche Points: {0}</english>
+        <french>Points Touche: {0}</french>
+    </item>
+    <item app="Stipendio stimato: {0} €">
+        <italian>Stipendio stimato: {0} €</italian>
+        <english>Estimated salary: {0}</english>
+        <french>Salaire estimée: {0}</french>
+    </item>
+    <item app="Base: {0} €">
+        <italian>Base: {0}</italian>
+        <english>Base: {0}</english>
+        <french>Base: {0}</french>
+    </item>
+    <item app="Data">
+        <italian>Data</italian>
+        <english>Date</english>
+        <french>Date</french>
+    </item>
+    <item app="Tipo">
+        <italian>Tipo</italian>
+        <english>Type</english>
+        <french>Type</french>
+    </item>
+    <item app="Giocatore">
+        <italian>Giocatore</italian>
+        <english>Player</english>
+        <french>Joueur</french>
+    </item>
+    <item app="Dettagli">
+        <italian>Dettagli</italian>
+        <english>Details</english>
+        <french>Détails</french>
+    </item>
+    <item app="Posizione">
+        <italian>Posizione</italian>
+        <english>Position</english>
+        <french>Lieu</french>
+    </item>
+    <item app="Squadra">
+        <italian>Squadra</italian>
+        <english>Team</english>
+        <french>Team</french>
+    </item>
+    <item app="P.G." note="Partite Giocate">
+        <italian>P.G.</italian>
+        <english>G.P.</english>
+        <french>J.J.</french>
+    </item>
+    <item app="P.V." note="Partite Vinte">
+        <italian>P.V.</italian>
+        <english>M.W.</english>
+        <french>J.G.</french>
+    </item>
+    <item app="P.N." note="Partite Nulle">
+        <italian>P.N.</italian>
+        <english>M.N.</english>
+        <french>J.N.</french>
+    </item>
+    <item app="P.P." note="Partite Perse">
+        <italian>P.P.</italian>
+        <english>M.L.</english>
+        <french>J.P.</french>
+    </item>
+    <item app="Diff.">
+        <italian>Diff.</italian>
+        <english>Diff.</english>
+        <french>Diff.</french>
+    </item>
+    <item app="Bonus">
+        <italian>Bonus</italian>
+        <english>Bonus</english>
+        <french>Bonus</french>
+    </item>
+    <item app="Punti">
+        <italian>Punti</italian>
+        <english>Points</english>
+        <french>Points</french>
+    </item>
+    <item app="+" />
+    <item app="-" />
+    <item app="Ha {0} in {1}.|E' diminuito di {2}|con l'età" />
+    <item app="Fa {0} come {1}.|E' diminuito di {2}|con l'età" />
+</language>
