@@ -150,37 +150,18 @@ namespace RMO
                 menuColorScattoPiu.BackColor = Properties.Settings.Default.Color_ScattoPiu;
                 menuScattoMeno.BackColor = Properties.Settings.Default.Color_ScattoMeno;
 
-                if (Ban())
-                {
-                    this.Close();
-                    Application.Exit();
-                }
-                else
-                {
-                    Control.Player.OrderSkill = RMO.Control.Player.GetSkillFromString(Properties.Settings.Default.PlayerOrderSkill);
-                    Control.Player.OrderReverse = Properties.Settings.Default.PlayerOrderAsc;
-                    if (DB.NEW_DATABASE) RebuildDatabase();
-                    if (!DB.IsEmpty()) this.Invoke(new MethodInvoker(ShowPlayers));
-                    groupLogin.Enabled = true;
-                    no_update_message = false;
-                    if (Properties.Settings.Default.CheckUpdates)
-                        menuUpdate_Click(null, EventArgs.Empty);
-                    StatusString = SPOT;
-                }
+                Control.Player.OrderSkill = RMO.Control.Player.GetSkillFromString(Properties.Settings.Default.PlayerOrderSkill);
+                Control.Player.OrderReverse = Properties.Settings.Default.PlayerOrderAsc;
+                if (DB.NEW_DATABASE) RebuildDatabase();
+                if (!DB.IsEmpty()) this.Invoke(new MethodInvoker(ShowPlayers));
+                groupLogin.Enabled = true;
+                no_update_message = false;
+                if (Properties.Settings.Default.CheckUpdates)
+                    menuUpdate_Click(null, EventArgs.Empty);
+                StatusString = SPOT;
+
             }
             catch (Exception ex) { My.Box.Errore("MainForm::InitApp()\r\n" + ex.Message); }
-        }
-
-        private bool Ban()
-        {
-            switch(textUser.Text)
-            {
-                case "nicola72":
-                case "tower73":
-                case "kiweed":
-                    return true;
-            }
-            return false;
         }
 
         private void menuEsci_Click(object sender, EventArgs e)
