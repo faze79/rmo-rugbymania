@@ -310,10 +310,12 @@ namespace RMO
             string player = "";
             foreach (string s in tokens)
             {
-                if (s.Contains("id_player="))
+                //if (s.Contains("id_player="))
+                if (s.Contains("'player/"))
                 {
-                    string[] subtokens = s.Split(new char[2] { '=', '\'' });
-                    player = subtokens[subtokens.Length - 2];
+                    //string[] subtokens = s.Split(new char[2] { '=', '\'' });
+                    //player = subtokens[subtokens.Length - 2];
+                    player = My.Convert.GetString(s, "'player/", "'>");
                 }
                 string ss = s.Trim().ToLower();
                 if (player != "")
@@ -428,6 +430,9 @@ namespace RMO
                         case "country": sql = sql.Replace("$05", prop.InnerText); break;
                         case "category": sql = sql.Replace("$06", prop.InnerText); break;
                         case "age": sql = sql.Replace("$07", prop.InnerText); break;
+                        //birthyear
+                        //birthday
+                        //injured_until
                         case "experience": sql = sql.Replace("$08", prop.InnerText); break;
                         case "salaire": sql = sql.Replace("$09", prop.InnerText); break;
                         case "placage": sql = sql.Replace("$10", prop.InnerText); break;
@@ -481,10 +486,26 @@ namespace RMO
                 }
                 if (sql.Contains("$19")) sql = sql.Replace("$19", data);
                 sql = sql.Replace("$02", My.SQLLite.DateToSQLite(date));
+                sql = Patch2014(sql);
                 if (sql.IndexOf("$") < 0) return sql;
             }
             catch (Exception ex) { My.Box.Errore("RMDB::LoadPlayerSql()\r\n" + ex.Message); }
             return "";
+        }
+
+        private string Patch2014(string sql)
+        {
+            sql = sql.Replace("$21", "0");
+            sql = sql.Replace("$22", "0");
+            sql = sql.Replace("$24", "0");
+            sql = sql.Replace("$26", "0");
+            sql = sql.Replace("$28", "0");
+            sql = sql.Replace("$29", "0");
+            sql = sql.Replace("$30", "0");
+            sql = sql.Replace("$31", "0");
+            sql = sql.Replace("$32", "0");
+            sql = sql.Replace("$35", "0");
+            return sql;
         }
 
         public bool IsEmpty()
