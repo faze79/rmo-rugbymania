@@ -29,7 +29,7 @@ namespace RMO
                 if (Properties.Settings.Default.MainMaximized) this.WindowState = FormWindowState.Maximized;
 
                 InitDB();
-                //this.Text = string.Format("RMO [{0}] [BUILD:{1}]", Internal.WORKPATH + RMDB.DBPATH,Internal.VERSION);
+
                 this.Text = string.Format("RMO  v.{0}", Internal.VERSION);
                 this.Load += new EventHandler(MainForm_Load);
                 this.FormClosing += new FormClosingEventHandler(MainForm_FormClosing);
@@ -152,10 +152,10 @@ namespace RMO
 
                 Control.Player.OrderSkill = RMO.Control.Player.GetSkillFromString(Properties.Settings.Default.PlayerOrderSkill);
                 Control.Player.OrderReverse = Properties.Settings.Default.PlayerOrderAsc;
-                if (DB.NEW_DATABASE) RebuildDatabase();
-                if (!DB.IsEmpty()) this.Invoke(new MethodInvoker(ShowPlayers));
                 groupLogin.Enabled = true;
                 no_update_message = false;
+                if (DB.NEW_DATABASE) RebuildDatabase();
+                if (!DB.IsEmpty()) this.Invoke(new MethodInvoker(ShowPlayers));
                 if (Properties.Settings.Default.CheckUpdates)
                     menuUpdate_Click(null, EventArgs.Empty);
                 StatusString = SPOT;
@@ -270,43 +270,6 @@ namespace RMO
             if (!ok) ok = (LAST_HEADERS.IndexOf("Location: vote.php") > 0);
             return ok;
         }
-        /*
-         * 
-OK
-Pragma: no-cache
-Vary: Accept-Encoding,User-Agent
-Keep-Alive: timeout=25, max=100
-Connection: Keep-Alive
-Transfer-Encoding: chunked
-Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-Content-Type: text/html
-Date: Tue, 03 Nov 2009 09:19:17 GMT
-Expires: Thu, 19 Nov 1981 08:52:00 GMT
-Set-Cookie: PHPSESSID=5adc7bf20a97e802d92b80b39d80dd44; path=/
-Server: Apache
-X-Powered-By: PHP/5.2.5-pl1-gentoo
-
-Status Code: OK
-From: http://www.rugbymania.net/play.php
-ISO-8859-1
-         * 
-         * 
-         * Pragma: no-cache
-Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-Date: Tue, 03 Nov 2009 09:21:26 GMT
-Expires: Thu, 19 Nov 1981 08:52:00 GMT
-Set-Cookie: PHPSESSID=c9594328a33747715278e967cdd0a198; path=/,cookielogin=%2C+%233087%23; expires=Wed, 03-Nov-2010 09:21:26 GMT
-Server: Apache
-X-Powered-By: PHP/5.2.5-pl1-gentoo
-Location: club.php
-Vary: Accept-Encoding,User-Agent
-Content-Length: 0
-Content-Type: text/html
-
-Status Code: Found
-From: http://www.rugbymania.net/ctrl_account.php
-ISO-8859-1
-         */
 
         private string LAST_HEADERS = "";
         private CookieContainer LAST_Cookies = null;
@@ -547,7 +510,8 @@ ISO-8859-1
                 else
                 {
                     if (no_update_message) My.Box.Info(T("Nessun nuovo aggiornamento disponibile"));
-                    if (Internal.DB != null)
+                    if ( (Internal.DB != null)
+                        && (!string.IsNullOrWhiteSpace(textUser.Text)))
                     {
                         if (Internal.DB.NeedUpdate())
                         {
@@ -626,7 +590,7 @@ ISO-8859-1
             {
                 z++; bool ok1 = My.Box.Conferma(string.Format("Sei sicuro che i tuoi dati siano i seguenti?\r\nLogin: {0}\r\nPassword: {1}\r\n", textUser.Text, textPwd.Text));
                 z++; string autenticazione = "log_id=" + textUser.Text + "&log_password=" + textPwd.Text;
-                z++; string pagina = GetWebPage(LOGINURL1, autenticazione, true);
+                z++; string pagina = GetWebPage(LOGINURL1, autenticazione, false);
                 z++; pagina = GetWebPage(LOGINURL2, autenticazione, true);
                 z++; bool ok2 = IsLoginOK();
                 if (ok1 && ok2)
@@ -641,12 +605,12 @@ ISO-8859-1
                         if (pagina != "")
                         {
                             z++; inserted = Tab.TabEvents.ProcessEvents(pagina, false);
-                            z++; counter = counter + 30;
+                            z++; counter = counter + 40;
                             z++; allcounter += inserted;
                         }
                         else
                         {
-                            z++; pagina = GetWebPage(LOGINURL1, autenticazione, true);
+                            z++; pagina = GetWebPage(LOGINURL1, autenticazione, false);
                             z++; pagina = GetWebPage(LOGINURL2, autenticazione, true);
                         }
                     }
@@ -1444,7 +1408,7 @@ ISO-8859-1
     {
         public static MainForm Main = null;
         public static RMDB DB = null;
-        public static int VERSION = 0075;
+        public static int VERSION = 0076;
         public static string WORKPATH = Application.UserAppDataPath;
         public static char BAR = System.IO.Path.DirectorySeparatorChar;
         public static My.Translate Translate;
