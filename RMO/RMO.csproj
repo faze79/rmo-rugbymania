@@ -264,6 +264,21 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="SQLite.Designer.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="SQLite.Interop.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="sqlite3.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="System.Data.SQLite.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="System.Data.SQLite.Linq.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <EmbeddedResource Include="Bandiere\flag101.gif" />
     <EmbeddedResource Include="Bandiere\flag102.gif" />
     <EmbeddedResource Include="Bandiere\flag27.gif" />
@@ -319,6 +334,9 @@
       <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Bandiere\flag58.gif" />
+    <None Include="ICSharpCode.SharpZipLib.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <Content Include="RMO.ico" />
     <EmbeddedResource Include="SkillNum\0.png" />
     <EmbeddedResource Include="SkillNum\1.png" />

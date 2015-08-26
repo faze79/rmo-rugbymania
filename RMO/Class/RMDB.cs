@@ -505,6 +505,7 @@ namespace RMO
             sql = sql.Replace("$31", "0");
             sql = sql.Replace("$32", "0");
             sql = sql.Replace("$35", "0");
+            sql = sql.Replace("$40", "0");
             return sql;
         }
 
